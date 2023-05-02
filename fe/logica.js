@@ -10,6 +10,7 @@ productosLink.addEventListener('mouseover', () => {
 productosLink.addEventListener('mouseout', () => {
   menuIndex.style.display = 'none';
 });
+
 const inicioLink = document.querySelector('#inicio');
 
 // Agregar un mensaje de alerta al hacer clic en el enlace
@@ -17,7 +18,7 @@ inicioLink.addEventListener('click', () => {
   alert('¡Bienvenidos a JuanjosMarket!');
 });
 
-const inicioLink = document.querySelector('#inicio');
+inicioLink = document.querySelector('#inicio');
 
 // Cambiar el texto del enlace "Inicio" al hacer clic en una opción del menú desplegable
 const opciones = document.querySelectorAll('.lista_index a');

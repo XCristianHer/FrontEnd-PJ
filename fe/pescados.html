@@ -18,16 +18,34 @@
 
 <body>
     <header class="menu">
+
         <div>
-        <h1 class="titulo">Juanjos Market</h1>
-        <p class="pie_header">De Colombia para el Mundo</p>
+            <h1 class="titulo">Juanjos Market</h1>
+            <p class="pie_header">De Colombia para el Mundo</p>
         </div>
         <nav>
             <ul>
-                <li><a href="home.html">Inicio</a></li>
-                <li><a href="home.html">Productos</a></li>
-                <li><a href="home.html">Ofertas</a></li>
-                <li><a href="home.html">Pide En Linea AHORA </a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <nav>
+                    <ul>
+                        <li><a href="productos.html">Productos</a>
+                            <ul id="dropdown">
+                                <li><a href="frutas.html">Frutas</a></li>
+                                <li><a href="carnes.html">Carnes</a></li>
+                                <li><a href="verduras.html">Vegetales</a></li>
+                                <li><a href="pescados.html">Pescados</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <li><a href="#">Ofertas</a></li>
+                <li>
+                    <a href="productos.html" id="carrito">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="carrito-texto">Pide en línea ahora</span>
+                    </a>
+  
+                </li>
             </ul>
         </nav>
     </header>
